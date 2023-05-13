@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 200 & display = swap');
+body{
+	background-image: linear-gradient(145deg, #0f243a, #6e1616, #58102e, #181516);
+}
+#menu ul{
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	
+}
+#menu li{
+	
+	float: left;
+}
+#menu #item a{
+	background-image: linear-gradient(145deg, #103761, #77498a);
+	color: #060811;
+	padding: 16px 26px;
+	display: block;
+	font-family:"Oswald";
+	font-weight: bolder;
+	font-size: 20px;
+	text-decoration: none;
+}
+#menu{
+	width: 1000px;
+	height: 52px;
+	
+}
+.barra{
+	color: rgb(40, 58, 58);
+	padding: 15px 0 0 0;
+	
+}
+#menu #item #desple {
+	
+	display: none;
+	position: absolute;
+	min-width: 220px;
+	
+}
+#menu #item a:hover{
+	background-image: linear-gradient(145deg, #6295cc, #561e6d);
+	color: cornsilk;
+	
+}
+#menu #item a:hover #desple {
+	display: block;	
+	box-sizing: border-box;
+	
+}

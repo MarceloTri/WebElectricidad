@@ -1,0 +1,101 @@
+/* Elimina el margen inferior y los bordes redondeados predeterminados de la barra de navegación */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    
+  }
+  
+  /* Establezca la altura de la cuadrícula para que .sidenav pueda ser del 100% (ajuste según sea necesario) */
+  .row.content {height: 600px}
+  
+  /* Establecer color de fondo gris y 100% de altura */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #3399DC;
+    height: 100%;
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+  }
+  .sidenav2 {
+    padding-top: 20px;
+    background-color: #3399DC;
+    height: 100%;
+    background-image: url(../img/contacto2.jpg);
+    background-size: cover;
+  }
+  
+  /* Establecer color de fondo negro, texto blanco y algo de relleno */
+  footer {
+    background-color: #3399DC;
+    color: white;
+    padding: 15px;
+  }
+  
+
+  /* En pantallas pequeñas, establezca la altura en 'auto' para sidenav y grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+  /*
+body{
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+}*/
+
+.imgServ {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_centerN {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img_center {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_Div{
+  width: 100%;
+}
+
+.pN{
+  text-align: center;
+
+}
+.texto{
+  text-align: justify;
+  margin-left: 10px;
+  text-indent: 50px;
+
+}
+
+.contacto{
+  width:30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+  color:#3399DC ;
+}
+.bton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

@@ -1,0 +1,44 @@
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(165, 66, 66); 
+    color: rgb(198, 211, 212);
+    text-align: center;
+}
+
+p{
+    font-family: Helvetica;
+    color: rgb(196, 211, 212);
+}
+nav{
+    text-align: lighter;
+    color: rgb(198, 211, 212);
+}
+
+body{
+  background-image: url(ImagWeb/electro.jpg);
+  background-size:cover;
+}
+/*
+body{
+
+    background-color: rgb(192, 162, 85);
+}
+}*/
+
+h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black; 
+    color: black;
+    text-align: center;
+}
+    h2{
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        background-color: rgb(207, 149, 61); 
+        color: rgb(232, 238, 238);
+    }
